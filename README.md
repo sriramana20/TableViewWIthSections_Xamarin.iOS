@@ -20,9 +20,9 @@ GetCell – return a UITableCellView populated with data for the corresponding r
 In this example , I have created a table view and one can specify the number of sections they want in the table by simply mentioning the number to the property “numberOfSections”, this will creates a table with the sections specified by the user.
 And  section titles can be changed by user , and also the number of rows in each section you can mention there. And various acessors also shown depending upon usage one can modify them.
 
-Requirements 
+###Requirements: 
 Xamarin Studio
 Xcode 7
 
-Author
+###Author
 K.SriRamana
