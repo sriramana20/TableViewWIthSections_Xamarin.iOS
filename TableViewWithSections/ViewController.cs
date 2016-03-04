@@ -65,7 +65,7 @@ namespace TableViewWithSections
 			{
 				return this.tableViewItems.Count;
 
-				differentiate the number of rows that yuo wanted ineach section here
+				//differentiate the number of rows that yuo wanted ineach section here
 //				 if(section == 0)
 //					{
 //					 return list1.count;
@@ -108,7 +108,12 @@ namespace TableViewWithSections
 				cell.TextLabel.Font = UIFont.FromName ("Helvetica Neue", 14);
 				cell.BackgroundColor = UIColor.LightGray;
 				cell.SelectionStyle = UITableViewCellSelectionStyle.None;
-						
+					
+				cell.Accessory = UITableViewCellAccessory.Checkmark;
+				//cell.Accessory = UITableViewCellAccessory.DisclosureIndicator;
+				//cell.Accessory = UITableViewCellAccessory.DetailDisclosureButton; // implement AccessoryButtonTapped
+				//cell.Accessory = UITableViewCellAccessory.None; // to clear the accessory
+
 				return cell;
 			}
 			public override void RowSelected (UITableView tableView,Foundation.NSIndexPath indexPath)
