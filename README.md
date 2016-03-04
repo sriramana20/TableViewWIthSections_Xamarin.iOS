@@ -1,11 +1,13 @@
 TableViewWIthSections_Xamarin.iOS
 
+###
 UITableView can have a ‘grouped’ or ‘plain’ style, and consists of the following parts:
 •	Section Header
 •	Cells (or rows, if you prefer)
 •	Section Footer
 •	Index
 
+###
 To add rows to a UITableView you need to implement a UITableViewSource subclass and override the methods that the table view calls to populate itself.
 •	Subclassing a UITableViewSource
 •	Cell Reuse
